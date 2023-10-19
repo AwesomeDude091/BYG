@@ -315,9 +315,6 @@ public class BYGBlocks {
     public static final BlockRegistryObject<Block> PACKED_BLACK_ICE = createBlock(() -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE)), "packed_black_ice");
     public static final BlockRegistryObject<Block> BLACK_ICE = createBlock(() -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.ICE)), "black_ice");
     public static final BlockRegistryObject<Block> WHITE_CHERRY_FOLIAGE = createBlock(() -> new FlatVegetationBlock(BlockBehaviour.Properties.of().noCollission().instabreak().sound(SoundType.GRASS)), "white_cherry_foliage");
-
-    public static final BlockRegistryObject<Block> POLLEN_BLOCK = createBlock(BYGBlockProperties.BYGPollen::new, "pollen_block");
-
     public static final BlockRegistryObject<Block> CRACKED_RED_SAND = createSand(MapColor.COLOR_ORANGE, 11098145, "cracked_red_sand");
 
     public static final BlockRegistryObject<Block> BLACK_SAND = createSand(MapColor.TERRACOTTA_BLACK, 5197647, "black_sand");
