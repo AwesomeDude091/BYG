@@ -215,7 +215,8 @@ public class BYGBiomes {
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
             HAS_STRONGHOLD,
-            HAS_VILLAGE_TAIGA
+            HAS_VILLAGE_TAIGA,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> BOREALIS_GROVE = createBiome("borealis_grove", BYGOverworldBiomes::borealisGrove,
@@ -455,7 +456,8 @@ public class BYGBiomes {
             HAS_MINESHAFT,
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_MOUNTAIN,
-            HAS_STRONGHOLD
+            HAS_STRONGHOLD,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> WINDSWEPT_DESERT = createBiome("windswept_desert", (placedFeatureHolderGetter, carverHolderGetter) -> BYGOverworldBiomes.windsweptDesert(placedFeatureHolderGetter, carverHolderGetter, false),
@@ -510,7 +512,8 @@ public class BYGBiomes {
             HAS_MINESHAFT,
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
-            HAS_STRONGHOLD
+            HAS_STRONGHOLD,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> GROVE = createBiome("temperate_grove", (placedFeatureHolderGetter, carverHolderGetter) -> temperateGrove(placedFeatureHolderGetter, carverHolderGetter, false),
@@ -594,7 +597,8 @@ public class BYGBiomes {
             HAS_MINESHAFT,
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
-            HAS_STRONGHOLD
+            HAS_STRONGHOLD,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> MAPLE_TAIGA = createBiome("maple_taiga", BYGOverworldBiomes::mapleTaiga,
@@ -975,7 +979,8 @@ public class BYGBiomes {
             HAS_MINESHAFT,
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
-            HAS_STRONGHOLD
+            HAS_STRONGHOLD,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> TROPICAL_RAINFOREST = createBiome("tropical_rainforest", BYGOverworldBiomes::tropicalRainforest,
@@ -991,7 +996,8 @@ public class BYGBiomes {
             HAS_MINESHAFT,
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
-            HAS_STRONGHOLD
+            HAS_STRONGHOLD,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> TWILIGHT_MEADOW = createBiome("twilight_meadow", BYGOverworldBiomes::twilightMeadow,
@@ -1025,7 +1031,8 @@ public class BYGBiomes {
             HAS_MINESHAFT,
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
-            HAS_STRONGHOLD
+            HAS_STRONGHOLD,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> WHITE_MANGROVE_MARSHES = createBiome("white_mangrove_marshes", BYGOverworldBiomes::whiteMangroveMarshes,
@@ -1068,7 +1075,8 @@ public class BYGBiomes {
             HAS_PILLAGER_OUTPOST,
             HAS_RUINED_PORTAL_STANDARD,
             HAS_STRONGHOLD,
-            HAS_VILLAGE_PLAINS
+            HAS_VILLAGE_PLAINS,
+            HAS_TRAIL_RUINS
     );
 
     public static final ResourceKey<Biome> ZELKOVA_FOREST = createBiome("zelkova_forest", BYGOverworldBiomes::zelkovaForest,
