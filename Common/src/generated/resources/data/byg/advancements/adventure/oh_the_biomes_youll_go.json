@@ -849,22 +849,6 @@
       },
       "trigger": "minecraft:location"
     },
-    "byg:shulkren_forest": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "byg:shulkren_forest"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
     "byg:sierra_badlands": {
       "conditions": {
         "player": [
@@ -1254,9 +1238,6 @@
       "byg:rainbow_beach"
     ],
     [
-      "byg:shulkren_forest"
-    ],
-    [
       "byg:cardinal_tundra"
     ],
     [
@@ -1313,5 +1294,6 @@
   ],
   "rewards": {
     "experience": 1000
-  }
+  },
+  "sends_telemetry_event": true
 }
